@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- Compiled and minified CSS -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+         <!-- Style CSS -->
+         <link rel="stylesheet" href="style.css">
+         <!-- Material Icons -->
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Pickers</title>
+</head>
+
+<body class="deep blue-grey lighten-3">
+    <div class="navbar-fixed">
+     <nav class="grey darken-3">
+            <div class="container">
+                    <div class="nav-wrapper">
+                            <a href="index.html" class="brand-logo">
+                                <i class="material-icons left">THE MINIMAL CLOSET</i></a>
+                            <a href="#" data-target="slide-out" class="sidenav-trigger">
+                                <i class="medium material-icons">menu</i>
+                            </a>
+                            <ul id="nav mobile" class="right hide-on-med-and-down">
+                                    <li><a href="home.html"><strong>HOME</strong></a></li>
+                                    <li><a href="cart.html"><strong>CART</strong></a></li>
+                                    <li><a href="favorites"><strong>FAVORITES</strong></a></li>
+                            </ul>
+                    </div>
+            </div>
+     </nav>
+    </div>
+
+        <!-- Sidenav -->
+        <ul id="slide-out" class="sidenav">
+            <li>
+                    <div class="user-view">
+                            <div class="background">
+                                    <img src="1a.jpg">
+                                </div>
+                                <a href="#user">
+                                    <img class="circle" src="go.jpg">
+                                </a>
+                                <a href="#name">
+                                    <span class="black-text name">Margo Libres</span>
+                                </a>
+                                <br><br><br>
+                        </div>
+                    </li>
+                <br>
+                <li>
+                        <div class="divider"></div>
+                </li>
+                <br>
+                    <li><a href="#!"><i class="material-icons left">home</i>SHOP</a></li>
+                    <li><a href="#!"><i class="material-icons left">shopping_cart</i>CART</a></li>
+                    <li><a href="#!"><i class="material-icons left">favorite_border</i>FAVORITES</a></li>
+                    <li><a href="#!"><i class="material-icons left">history</i>VIEW HISTORY</a></li>
+                
+                <br><br><br>
+                
+                    <li><a href="#!"><i class="material-icons left">settings</i>Settings</a></li>
+                    <li><a href="#!"><i class="material-icons left">logout</i>Log Out</a></li>
+            
+    </ul>
+
+<div class="container">
+    <h4 class="grey-text">Date Picker</h4>
+        <div class="form">
+            <div class="input-field">
+                <input type="text" class="datepicker">
+                <label for="date">Date</label>
+        <br><br>
+    <h4 class="grey-text">Time Picker</h4>
+            <div class="input-field">
+                <input id="Hurry Up!" type="text" class="timepicker">
+                <label for="time">Time</label>
+            </div>
+            </div>
+        </div>
+</div>
+
+<hr>
+<h5 class="grey-text center">Chips</h5>
+<hr>
+
+<section class="section">
+    <div class="container">
+        <div class="chip">
+            <img src="go.jpg" alt="Personal Contact">
+            Margo
+        </div>
+        <div class="chip">
+            <img src="go.jpg" alt="Personal Contact">
+            Jackie
+        </div>
+        <div class="chip">
+            <img src="go.jpg" alt="Personal Contact">
+            Marikit
+        </div>
+        <div class="chip">
+            <img src="go.jpg" alt="Personal Contact">
+            Margo
+            <i class="close material-icons">close</i>
+        </div>
+        <div class="chip">
+            <img src="go.jpg" alt="Personal Contact">
+            Jackie
+            <i class="close material-icons">close</i>
+        </div>
+        <div class="chip">
+            <img src="go.jpg" alt="Personal Contact">
+            Marikit
+            <i class="close material-icons">close</i>
+        </div>
+    </div>
+</section>
+
+<br><br><br>
+
+<hr>
+<h5 class="grey-text center">Radio Buttons</h5>
+<hr>
+
+<section class="section">
+    <div class="container">
+        <form action="#">
+            <p>
+                <label>
+                    <input name="group1" type="radio" checked />
+                    <span>Hot Coffee</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="group1" type="radio" />
+                    <span>Iced Coffee</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Milktea</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="group1" type="radio" disabled="disabled" />
+                    <span>Softdrinks</span>
+                </label>
+            </p>
+        </form>
+    </div>
+</section>
+
+
+
+</body>
+<br<br>
+
+
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified Javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+        $(document).ready(function() {
+                // Sidenav init
+                $('.sidenav').sidenav({
+                    edge: 'left',
+        });
+                // date picker init
+                $('.datepicker').datepicker();
+                // time picker init
+                $('.timepicker').timepicker();
+
+                // chips init
+                $('.chips').chips();
+    });
+
+</script>
+
+</html>

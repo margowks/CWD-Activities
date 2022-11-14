@@ -1,0 +1,13 @@
+.timepicker-date-display {
+    background-color:rgb( 235, 142, 29);
+}
+
+
+.timepicker-cancel, .timepicker-clear, .timepicker-today, .timepicker-done {
+    color: rgb( 235, 142, 29);;
+
+}
+
+button.timepicker-day-button {
+    /* color: rgb( 235, 142, 29); */
+}
