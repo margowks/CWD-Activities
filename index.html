@@ -8,672 +8,428 @@
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
          <!-- Style CSS -->
          <link rel="stylesheet" href="style.css">
+         <!-- Jquery -->
+         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
          <!-- Material Icons -->
          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <title>THE MINIMAL CLOSET</title>
+        <title>KANLUNGAN</title>
 </head>
 
-<body class="deep blue-grey lighten-3">
-        <div class="navbar-fixed">
-         <nav class="grey darken-3">
-                <div class="container">
-                        <div class="nav-wrapper">
-                                <a href="index.html" class="brand-logo">
-                                    <i class="material-icons left">THE MINIMAL CLOSET</i></a>
-                                <a href="#" data-target="slide-out" class="sidenav-trigger">
-                                    <i class="medium material-icons">menu</i>
-                                </a>
-                                <ul id="nav mobile" class="right hide-on-med-and-down">
-                                        <li><a href="home.html"><strong>HOME</strong></a></li>
-                                        <li><a href="cart.html"><strong>CART</strong></a></li>
-                                        <li><a href="favorites"><strong>FAVORITES</strong></a></li>
-                                </ul>
+<body>
+    <div class="navbar-fixed">
+        <nav id="navigation" class="yellow lighten-2">
+            <div class="logo-container">
+                <div class="nav-wrapper">
+                    <div class="row">
+                        <div class="col s12">
+                    <a href="index.html" class="brand-logo">
+                        <img id="logo" src="animal-care.png" width="70" height="60">
+                        <i class="material-icons orange-text text-darken-3">KANLUNGAN</i>
+                    </a>
+                    <a href="#" data-target="slide-out" class="sidenav-trigger">
+                        <i class="medium material-icons light-green-text text-darken-4">menu</i>
+                    </a>
+                        <ul id="nav mobile" class="right hide-on-med-and-down">
+        <li><a class="active" href="#home">home</a></li>
+        <li><a href="#about_us">about us</a></li>
+        <li><a href="#services">services</a></li>
+        <li><a href="#contact">contact</a></li>
+                        </ul>
                         </div>
+                    </div>
                 </div>
-         </nav>
-        </div>
-
-        <!-- Sidenav -->
-        <ul id="slide-out" class="sidenav">
-                <li>
-                        <div class="user-view">
-                                <div class="background">
-                                        <img src="1a.jpg">
-                                    </div>
-                                    <a href="#user">
-                                        <img class="circle" src="go.jpg">
-                                    </a>
-                                    <a href="#name">
-                                        <span class="black-text name">Margo Libres</span>
-                                    </a>
-                                    <br><br><br>
-                            </div>
-                        </li>
-                    <br>
-                    <li>
-                            <div class="divider"></div>
-                    </li>
-                    <br>
-                        <li><a href="#!"><i class="material-icons left">home</i>SHOP</a></li>
-                        <li><a href="#!"><i class="material-icons left">shopping_cart</i>CART</a></li>
-                        <li><a href="#!"><i class="material-icons left">favorite_border</i>FAVORITES</a></li>
-                        <li><a href="#!"><i class="material-icons left">history</i>VIEW HISTORY</a></li>
-                    
-                    <br><br><br>
-                    
-                        <li><a href="#!"><i class="material-icons left">settings</i>Settings</a></li>
-                        <li><a href="#!"><i class="material-icons left">logout</i>Log Out</a></li>
-                
-        </ul>
-
-        <div class="container">
-                <!-- Headers -->
-                <br><br>
-                <div class="container center">
-                    <img class="materialboxed" width="650" src="the minimal closet inc..png">
-                </div>
-                <br><br>
-                <div class="slider center">
-                    <ul class="slides">
-                        <li>
-                            <img src="1a.jpg" alt="" class="responsive-img">
-                            <div class="caption center-align">
-                                <h3>This is our big Tagline!</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="store.jpg" alt="" class="responsive-img">
-                            <div class="caption center-align">
-                                <h5 class="black-text">Here's our small slogan.</h5>
-                            </div>
-                        </li>
-                        <li>
-                            <iframe src="https://assets.pinterest.com/ext/embed.html?id=7529524368344527" height="480" width="853" frameborder="0" scrolling="no" allowfullscreen ></iframe>
-                            <div class="caption center-align">
-                                <h5 class="black-text">Here's our small slogan.</h5>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-        </div>
-
-                <br>
-
-            <!-- Flow Text -->
-            <p class="flow text">
-                <div class="card-panel blue-grey lighten-2 center">
-                    Life is too short to wear boring clothes.
-                </div>
-            </p>
-
-            <div class="divider"></div>
-
-        <!-- Floating Action Button -->
-        <div class="fixed-action-btn toolbar">
-                <a class="btn-floating btn-large black pulse">
-                    <i class="large material-icons">search</i>
-                </a>
-                <ul>
-                        <li><a class="light-blue accent-1"><i class="material-icons">filter_list</i></a></li>
-                        <li><a class="light-blue accent-1"><i class="material-icons">photo_camera</i></a></li>
-                        <li><a class="light-blue accent-1"><i class="material-icons">mic_none</i></a></li>
-                        <li><a class="light-blue accent-1"><i class="material-icons">store</i></a></li>
-                </ul>
             </div>
+        </nav>
+    </div>
 
-
+<!-- Slider -->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="Kanlungan.gif">
+            </li>
+            <li>
+                <img src="PACK DOGS.jpg">
+            </li>
+            <li>
+                <img src="KITTENS IN BOX.jpg">
+            </li>
+            <li>
+                <img src="BLACK DOG.jfif">
+            </li>
+            <li>
+                <img src="cat 2.jpg">
+            </li>
+            <li>
+                <img src="MEAL.jpg">
+            </li>
+        </ul>
+    </div>
 
 </body>
 
-    <div class="container"> 
-            <!-- Collection -->
-        <h4 class="black-text">Collection</h4>
-        <h5 class="grey-text text-darken-4">Basic Clothes</h5>
-        <ul class="collection">
-            <li class="collection-item">Women's Wear</li>
-            <li class="collection-item">Men's Wear</li>
-            <li class="collection-item">Children's</li>
-            <li class="collection-item">Undergarments</li>
-        </ul>
-        <!-- Links -->
-        <h5 class="grey-text text-darken-4">Accessories</h5>
-        <div class="collection">
-            <a href="https://materializecss.com/dropdown.html#!" class="collection-item blue-grey lighten-1 active" target="_blank">Watch</a>
-            <a href="#" class="collection-item blue-grey lighten-1 white-text">Caps</a>
-            <a href="" class="collection-item blue-grey lighten-1 white-text">Earrings</a>
-            <a href="" class="collection-item blue-grey lighten-1 white-text">Necklace</a>
+<br><br><br><br><br>
+
+<section id="home">
+    <div class="container">
+        <br>
+        <div class="row valign-wrapper">
+        <div class="col s12">
+        <li>
+            <img src="SHELTER DOGS.jpg" alt="" class="materialboxed responsive-img">
+        </li>
         </div>
-
-        <!-- Headers -->
-        <h5 class="grey-text">Headers</h5>
-        <ul class="collection with-header">
-            <li class="collection-item">
-                <h4>Categories</h4>
-            </li>
-            <li class="collection-item">Creative Web Design</li>
-            <li class="collection-item">Web Development</li>
-            <li class="collection-item">Mobile App</li>
-            <li class="collection-item">Others</li>
-        </ul>
-
-        <!-- Secondary Content -->
-        <h5 class="grey-text">Secondary Content</h5>
-        <ul class="collection with-header">
-            <li class="collection-item">
-                <h4>Courses</h4>
-            </li>
-            <li class="collection-item">
-                <div>
-                    Creative Web Design
-                    <a href="#" class="secondary-content cyan-text">
-                        <i class="material-icons">send</i>
-                    </a>
+        </div>
+            <blockquote>
+                <div class="black-text">
+                    <h5> KSP (KANLUNGAN SHELTER PHILIPPINES) is a temporary shelter for dogs, cats and other animals rescued from cruelty or neglect with the goal of rehabilitating and placing them in loving homes.</h5>
                 </div>
-            </li>
-            <li class="collection-item">
-                <div>
-                    Web Development
-                    <a href="#" class="secondary-content indigo-text">
-                        <i class="material-icons">airplay</i>
-                    </a>
+            </blockquote>
+            <blockquote>
+                <div class="black-text orange lighten-2">
+                    <h5>KANLUNGAN is a registered non-profit organization which is dedicated to the protection and the promotion of humane treatment of all animals.</h5>
                 </div>
-            </li>
-            <li class="collection-item">
-                <div>
-                    Mobile App
-                    <a href="#" class="secondary-content purple-text">
-                        <i class="material-icons">android</i>
-                    </a>
-                </div>
-            </li>
-            <li class="collection-item">
-                <div>
-                    Others
-                    <a href="#" class="secondary-content lime-text">
-                        <i class="material-icons">aspect_ratio</i>
-                    </a>
-                </div>
-            </li>
-        </ul>
-
-
-        <!-- Avatar Content -->
-        <h5 class="grey-text text-darken-4">Follow Us</h5>
-        <ul class="collection">
-            <li class="collection-item avatar">
-                <img src="f.png" alt="" class="circle">
-                <span class="title">Facebook</span>
-                <p>First Line
-                    <br>
-                    Second Line
-                </p>
-                <a href="#" class="secondary-content orange-text">
-                    <i class="material-icons">add_circle_outline</i>
-                </a>
-            </li>
-            <li class="collection-item avatar">
-                <img src="i.png" alt="" class="circle">
-                <span class="title">Instagram</span>
-                <p>First Line
-                    <br>
-                    Second Line
-                </p>
-                <a href="#" class="secondary-content orange-text">
-                    <i class="material-icons">add_circle_outline</i>
-                </a>
-            </li>
-            <li class="collection-item avatar">
-                <img src="t.png" alt="" class="circle">
-                <span class="title">Twitter</span>
-                <p>First Line
-                    <br>
-                    Second Line
-                </p>
-                <a href="#" class="secondary-content orange-text">
-                    <i class="material-icons">add_circle_outline</i>
-                </a>
-            </li>
-            <li class="collection-item avatar">
-                <i class="material-icons circle yellow">cloud</i>
-                <span class="title">LinkedIn</span>
-                <p>First Line
-                    <br>
-                    Second Line
-                </p>
-                <a href="#" class="secondary-content orange-text">
-                    <i class="material-icons">add_circle_outline</i>
-                </a>
-            </li>
-        </ul>
-        <!-- End of container -->
+            </blockquote>
     </div>
-    
+</section>
 
-<section class="section">
-        <div class="container">
-                 <div class="card-panel hoverable amber accent-4 z-depth-1">
-             <div class="row valign-wrapper">
-                <br><br>
-                    <div class="col s12 m8 l9">
-                        <img src="old.jpg" alt="" class="materialboxed responsive-img">
+<br><br>
+
+<section id="about_us">
+    <div class="container">
+        <div class="row valign-wrapper">
+            <div class="col s6">
+            <p class="flow text">
+                <div class="box hoverable pink lighten-3 black-text center">
+                    <h5>MISSION</h5>
+                </div>
+            </p>
+                <div class="card teal lighten-3 black-text">
+                    <div class="card-content white-text center">
+                        The Kanlungan Shelter Philippines exists to prevent cruelty, alleviate pain, fear and suffering in animals and to promote a society based on humane principles.
                     </div>
-                    <div class="col s12 m8 l11">
-                        <img src="1a.jpg" alt="" class="materialboxed responsive-img">
+                </div>
+            </div>
+            <div class="col s6">
+                <div class="card light-green lighten-1 black-text">
+                    <div class="card-content white-text center">
+                        KSP is a credible nationwide non-profit organization, composed of a network of committed, compassionate and trustworthy individuals and institutions that initiates and leads in the promotion of animal welfare, and the protection of all animals. KSP envisions a nation that respects animals, practices responsible pet ownership, and protects wildlife.
                     </div>
-                    <div class="col s12 m8 l9">
-                        <img src="brown.jpg" alt="" class="materialboxed responsive-img">
+                </div>
+                <p class="flow text">
+                    <div class="box hoverable pink lighten-3 black-text center">
+                        <h5>VISION</h5>
                     </div>
-              </div>
+                </p>
+            </div>
+        </div>
+        <hr><br>
+        <p class="flow text">
+            <div class="row valign-wrapper">
+                <div class="col s7 push-s5">
+                    <div class="card-panel hoverable N/A transparent black-text">
+                <div class="light-green-text text-darken-4"><h4>Please donate and help save our shelter animals</h4></div>
+                Every year, the KSP Animal Rehabilitation Center cares for around 300 dogs and cats rescued from cruelty or neglect. The costs of treating and rehabilitating these animals, as well as running the shelter and clinic, are funded solely by donations.
+                    </div>
+                </div>
+                <div class="col s5 pull-s7">
+                    <div class="card-panel amber accent-4 right">
+                        <img src="Shelter-Wishlist.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+            </div>
+        </p>
+        <p class="flow text">
+                <div class="light-green-text text-darken- center"><h4>How you can help?</h4></div>
+                <div class="card-panel hoverable deep-purple lighten-2 white-text left-align">
+                    The shelter and all our programs and campaigns are funded solely by donations. You can donate any amount via bank deposit or Paypal transfer.
+<br><br>
+Bank of the Philippine Islands (Swift no. BOPIPHMM)
 <br>
-         <div class="row valign-wrapper">
-                <div class="col s12 m6 l9">
-                    <img src="blue.jpg" alt="" class="materialboxed responsive-img">
+Acct Name: Kanlungan Shelter Philippines, Inc.
+<br>
+USD Acct No. 3944-0021-
+<br>
+PHP Acct No. 3943-0086-11
+<br><br>
+Philippine National Bank (Swift no. PNBM PHMM)
+<br>
+Acct Name: Kanlungan Shelter Philippines, Inc.
+Acct No. 1888-70015305
+<br><br>
+BDO 
+<br>
+Acct Name : Kanlungan Shelter Philippines, Inc.
+<br>
+Acct No : 0036-4007-0350
+<br><br><br>
+Checks should be issued to KANLUNGAN SHELTER PHILIPPINES (KSP)
                 </div>
-                <div class="col s12 m3 l12">
-                    <img src="go.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+        </p>
+    </div>
+</section>
+
+<br><br>
+
+<section id="services">
+    <div class="container center">
+        <p class="flow text">
+            <div class="row valign-wrapper">
+                <div class="light-green-text text-darken-3 white hoverable left"><h4>Rescue, Rehab & Adoption</h4></div>
+                <div class="black-text">The KANLUNGAN shelter is intended for animals involved in cases of cruelty or neglect. We provide physical and behavioral rehabilitation for these rescued animals to be able to find them forever homes, while their cases are pending in court.</div>
+            </div>
+        </p>
+            <div class="row valign-wrapper">
+                <div class="col s12 m9 l5">
+                  <div class="card blue-grey darken-1 center">
+                    <div class="card-image">
+                        <img src="adopt.jpg">
+                        <span class="card-title">RESPONSIBLE RESCUE ADOPTION</span>
+                        <a class="btn-floating halfway-fab waves-effect white pulse"><i class="material-icons black-text">favorite_border</i></a>
+                    </div>
+                    <div class="card-content white-text">
+                      <br>
+                      <p>Adopting rescue animal is never been so easy. You need to be extra in everything. Here's some tips for you!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="collection-item">
+                            <a href="https://www.goodhousekeeping.com/life/a28542326/adopting-a-dog-tips/"
+                            class="blue-grey darken-1 center" target="_blank">Here's your Guide</a>
+                        </a>
+                    </div>
+                  </div>
                 </div>
-                <div class="col s12 m6 l9">
-                    <img src="gray.jpg" alt="" class="materialboxed responsive-img">
+                <div class="col s12 m9 l7">
+                  <div class="card blue-grey darken-1 center">
+                    <div class="card-image">
+                        <img src="foster.jpg">
+                        <span class="card-title">FOSTERING RELEVANCE</span>
+                        <a class="btn-floating halfway-fab waves-effect white pulse"><i class="material-icons black-text">favorite_border</i></a>
+                    </div>
+                    <div class="card-content white-text">
+                      <br>
+                      <p>Fostering benefits is not only for the animals but indeed, also to its potential adopters. Have a quick read on this!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="collection-item">
+                            <a href="https://www.aspca.org/news/top-5-reasons-foster-animal-need#:~:text=Fostering%20animals%20creates%20more%20space,shelters%20and%20rescues%20so%20much!"
+                            class="blue-grey darken-1 center" target="_blank">Here's your Guide</a>
+                        </a>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+    </div>
+</section>
+
+    <hr>
+    <h5 class="grey-text center"><strong>Lovely Strays</strong></h5>
+    <hr>
+
+<section class="section">
+            <div class="container">
+             <div class="card-panel hoverable amber accent-4 z-depth-1">
+            <div class="row valign-wrapper">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="black-cat.jpg">
+                        </div>
+                        <div class="content center">
+                            <span class="card-title activator grey-text text-darken-4">Negra<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Negra<i class="material-icons right">close</i></span>
+                            <p>Barbie is a great running partner. She's shy at first but friendly once she gets to know you. She has a curious nose and food motivated. Barbie like cuddling and will be your best friend forever.</p>
+                        </div>
+                    </div>
                 </div>
-         </div>
-                 </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="Adopt-Barbie-1.jpg">
+                        </div>
+                        <div class="content center">
+                            <span class="card-title activator grey-text text-darken-4">Barbie<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Barbie<i class="material-icons right">close</i></span>
+                            <p>Negra loves attention, she loves sitting in the stairs and reaching the feet by his pinkish paw whenever someone passby. Negra loves purring, she loves laying in the tummy and enjoys petting by the warm palms.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="stripes-cat.jpg">
+                        </div>
+                        <div class="content center">
+                            <span class="card-title activator grey-text text-darken-4">Kinley<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Kinley<i class="material-icons right">close</i></span>
+                            <p>Kinley has a jaguar like fur, but he is sweet and love treats. He likes playing inside the boxes and jumping to things moving. Kinley is a clingy and lovely cat he wants to be adopted.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<br>
+<div class="container center">
+    <p class="flow text">
+        <div class="row valign-wrapper">
+            <div class="black-text">If you want to see more you may visit the KANLUNGAN Shelter facility.<hr></div>
+        </div>
+    </p>
+</div>
+             </div>
         </div>
 </section>
 
-<section class="section center">
+<br><br>
+
+<section id="contact">
+    <div class="container">
+    <!-- Avatar Content -->
+    <h5 class="black-text center">Follow Us</h5>
+    <hr>
+    <ul class="collection">
+        <li class="collection-item avatar blue lighten-4">
+            <img src="f.png" alt="" class="circle">
+            <span class="title blue-text text-darken-3">Facebook</span>
+                <br><br>
+                <div class="grey-text text-darken-2"><p>Kanlungan Official</p></div>
+            <a href="#" class="secondary-content black-text">
+                <i class="material-icons">add_circle_outline</i>
+            </a>
+        </li>
+        <li class="collection-item avatar blue lighten-4">
+            <img src="i.png" alt="" class="circle">
+            <span class="title purple-text text-accent-2">Instagram</span>
+                <br><br>
+                <div class="grey-text text-darken-2"><p>Kanlungan_PH</p></div>
+            <a href="#" class="secondary-content black-text">
+                <i class="material-icons">add_circle_outline</i>
+            </a>
+        </li>
+        <li class="collection-item avatar blue lighten-4">
+            <img src="t.png" alt="" class="circle">
+            <span class="title light-blue-text text-accent-2">Twitter</span>
+                <br><br>
+                <div class="grey-text text-darken-2"><p>Kanlungan Shelter</p></div>
+            <a href="#" class="secondary-content black-text">
+                <i class="material-icons">add_circle_outline</i>
+            </a>
+        </li>
+    </ul>
+    </div>
+</div>
+</section>
+
+<script>
+
+let section = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('nav a');
+
+window.onscroll = () =>{
+
+    section.forEach(sec =>{
+
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+
+        if(top >= offset && top <offset + height){
+            navLinks.forEach(links =>{
+                links.classList.remove('active');
+                document.querySelector('nav a[href*=' + id + ']').classList.add
+                ('active');
+            });
+        };
+
+    })
+};
+
+</script>
+
+<!-- Sidenav -->
+<ul class="container"> 
+    <ul id="slide-out" class="sidenav">
+    <li>
+        <div class="user-view">
+            <div class="background">
+                <img src="1a.jpg">
+            </div>
+                <a href="#user">
+                    <img class="circle" src="go.jpg">
+                </a>
+                <a href="#name">
+                    <span class="black-text name">Margo Libres</span>
+                </a>
+                <br><br><br>
+        </div>
+    </li>
+    <br>
+    <li>
+        <div class="divider"></div>
+    </li>
+    <br>
+    <ul class="collapsible">
+        <li>
+            <div class="collapsible-header"><a href="#home"><i class="material-icons left light-green-text text-darken-4">home</i>HOME</a></div>
+            <div class="collapsible-body">
+                <span>KANLUNGAN</span></div>
+        </li>
+        <li>
+            <div class="collapsible-header"><a href="#about_us"><i class="material-icons left light-green-text text-darken-4">info_outline</i>ABOUT US</a></div>
+            <div class="collapsible-body"><span>MISSION</span></div>
+            <div class="collapsible-body"><span>VISION</span></div>
+            <div class="collapsible-body"><span>DONATION</span></div>
+        </li>
+        <li>
+            <div class="collapsible-header"><a href="#services"><i class="material-icons left light-green-text text-darken-4">task_alt</i>SERVICES</a></div>
+            <div class="collapsible-body"><span>APPLY TO ADOPT</span></div>
+            <div class="collapsible-body"><span>APPLY TO FOSTER</span></div>
+
+        </li>
+        <li>
+            <div class="collapsible-header"><a href="#contact"><i class="material-icons left light-green-text text-darken-4">business_center</i>CONTACT</a></div>
+            <div class="collapsible-body"><span>FOLLOW</span></div>
+            <div class="collapsible-body"><span>CLINIC</span></div>
+        </li>
+    </ul>
+        <br><br><br>
+        
+        <li><a href="#settings"><i class="material-icons left light-green-text text-darken-4">settings</i>Settings</a></li>
+        <li><a href="#login"><i class="material-icons left light-green-text text-darken-4">login</i>Login</a></li>
+    </ul>
+</ul>
+
+
+
+<footer class="page-footer yellow lighten-2">
     <div class="container">
         <div class="row">
-            <div class="col s12">
-                    <iframe src="https://assets.pinterest.com/ext/embed.html?id=743164376024047136" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
-                    <iframe src="https://assets.pinterest.com/ext/embed.html?id=6825836926441420" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
-                </div>
-            </div> 
-        </div>
-</section>
-
-<div class="divider"></div>
-<hr>
-<h5 class="grey-text center">Basic Card</h5>
-<hr>
-<section class="section">
-    <div class="container">
-        <div class="row valign-wrapper">
-            <div class="col s12 m8">
-              <div class="card blue-grey darken-1 center">
-                <div class="card-content white-text">
-                  <span class="card-title">Women's Section</span>
-                  <br>
-                  <p>Keep on top of your fashion game with our edit of women's clothing. 
-                  Find stylish dresses, jackets and coats, trousers and jeans at TMC.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#" class="collection-item">
-                        <a href="https://unsplash.com/s/photos/women's-minimal-clothes"
-                        class="blue-grey darken-1 center" target="_blank">Here's your Guide</a>
-                    </a>
-                </div>
-              </div>
+            <div class="col s12 l6">
+                <h5 class="black-text">KANLUNGAN SHELTER</h5>
             </div>
-            <div class="col s12 m9">
-                <div class="card blue-grey darken-1 center">
-                  <div class="card-content white-text">
-                    <span class="card-title">Kid's Section</span>
-                    <br>
-                    <p>Kit them out in style with our kids' clothes. 
-                    Find everyday essentials, kids' shoes and accessories for babies and children at TMC.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#" class="collection-item">
-                    <a href="https://unsplash.com/s/photos/kid's-minimal-clothes"
-                    target="_blank">Here's your Guide</a>
-                    </a>
-                  </div>
-                </div>
-            </div>
-            <div class="col s12 m8">
-                <div class="card blue-grey darken-1 center">
-                  <div class="card-content white-text">
-                    <span class="card-title">Men's Section</span>
-                    <p>Elevate your men's accessories and wardrobe for a more functional lifestyle today!
-                    Find the trendiest clothes, shoes, bags and accessories to suit every man's taste at TMC.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#" class="collection-item">
-                    <a href="https://unsplash.com/s/photos/men's-minimal-clothes"
-                    target="_blank">Here's your Guide</a>
-                    </a>
-                  </div>
-                </div>
+            <div class="col l4 offset-l2 s12">
+                <h6 class="white-text">DON'T SHOP ADOPT</h6>
+                <br><br><br>
+                <ul>
+                    <p class="black-text text-lighten-4">Keep on Supporting!</p>
+                </ul>
             </div>
         </div>
-    </div>
-</section>
-
-<div class="divider"></div>
-<hr>
-<h5 class="grey-text center">Image Card</h5>
-<hr>
-<section class="section">
-    <div class="container">
-        <div class="row valign-wrapper">
-            <div class="col s12 m8">
-              <div class="card blue-grey darken-1 center">
-                <div class="card-image">
-                    <img src="1a.jpg">
-                    <span class="card-title">Women's Section</span>
-                </div>
-                <div class="card-content white-text">
-                  <br>
-                  <p>Keep on top of your fashion game with our edit of women's clothing. 
-                  Find stylish dresses, jackets and coats, trousers and jeans at TMC.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#" class="collection-item">
-                        <a href="https://unsplash.com/s/photos/women's-minimal-clothes"
-                        class="blue-grey darken-1 center" target="_blank">Here's your Guide</a>
-                    </a>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m9">
-                <div class="card blue-grey darken-1 center">
-                    <div class="card-image">
-                        <img src="1a.jpg">
-                        <span class="card-title">Kid's Section</span>
-                    </div>
-                  <div class="card-content white-text">
-                    <br>
-                    <p>Kit them out in style with our kids' clothes. 
-                    Find everyday essentials, kids' shoes and accessories for babies and children at TMC.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#" class="collection-item">
-                    <a href="https://unsplash.com/s/photos/kid's-minimal-clothes"
-                    target="_blank">Here's your Guide</a>
-                    </a>
-                  </div>
-                </div>
-            </div>
-            <div class="col s12 m8">
-                <div class="card blue-grey darken-1 center">
-                    <div class="card-image">
-                        <img src="1a.jpg">
-                        <span class="card-title">Men's Section</span>
-                    </div>
-                  <div class="card-content white-text">
-                    <p>Elevate your men's accessories and wardrobe for a more functional lifestyle today!
-                    Find the trendiest clothes, shoes, bags and accessories to suit every man's taste at TMC.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#" class="collection-item">
-                    <a href="https://unsplash.com/s/photos/men's-minimal-clothes"
-                    target="_blank">Here's your Guide</a>
-                    </a>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div class="divider"></div>
-<hr>
-<h5 class="grey-text center">FABs in Cards</h5>
-<hr>
-<section class="section">
-    <div class="container">
-        <div class="row valign-wrapper">
-            <div class="col s12 m8">
-              <div class="card blue-grey darken-1 center">
-                <div class="card-image">
-                    <img src="1a.jpg">
-                    <span class="card-title">Women's Section</span>
-                    <a class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">shopping_basket</i></a>
-                </div>
-                <div class="card-content white-text">
-                  <br>
-                  <p>Keep on top of your fashion game with our edit of women's clothing. 
-                  Find stylish dresses, jackets and coats, trousers and jeans at TMC.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#" class="collection-item">
-                        <a href="https://unsplash.com/s/photos/women's-minimal-clothes"
-                        class="blue-grey darken-1 center" target="_blank">Here's your Guide</a>
-                    </a>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m9">
-                <div class="card blue-grey darken-1 center">
-                    <div class="card-image">
-                        <img src="1a.jpg">
-                        <span class="card-title">Kid's Section</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">shopping_basket</i></a>
-                    </div>
-                  <div class="card-content white-text">
-                    <br>
-                    <p>Kit them out in style with our kids' clothes. 
-                    Find everyday essentials, kids' shoes and accessories for babies and children at TMC.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#" class="collection-item">
-                    <a href="https://unsplash.com/s/photos/kid's-minimal-clothes"
-                    target="_blank">Here's your Guide</a>
-                    </a>
-                  </div>
-                </div>
-            </div>
-            <div class="col s12 m8">
-                <div class="card blue-grey darken-1 center">
-                    <div class="card-image">
-                        <img src="1a.jpg">
-                        <span class="card-title">Men's Section</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">shopping_basket</i></a>
-                    </div>
-                  <div class="card-content white-text">
-                    <p>Elevate your men's accessories and wardrobe for a more functional lifestyle today!
-                    Find the trendiest clothes, shoes, bags and accessories to suit every man's taste at TMC.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#" class="collection-item">
-                    <a href="https://unsplash.com/s/photos/men's-minimal-clothes"
-                    target="_blank">Here's your Guide</a>
-                    </a>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div class="divider"></div>
-<hr>
-<h5 class="grey-text center">Tabs in Cards</h5>
-<hr>
-
-<section class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col s12">
-              <div class="card small">
-                <div class="card-content grey center">
-                    <p>Life is too short to wear boring clothes. It's your chance to purchase and take a look in the categories of the The Minimal Closet.</p>
-                </div>
-                <div class="card-tabs black-text">
-                    <ul class="tabs tabs-fixed-width">
-                        <li class="tab"><a class="active" href="#test4">WOMEN'S</a></li>
-                        <li class="tab"><a class="active" href="#test5">KID'S</a></li>
-                        <li class="tab"><a class="active" href="#test6">MEN'S</a></li>
-                    </ul>
-                </div>
-                <div class="card-content blue-grey lighten-4">
-                    <div class="center-align">
-                        <div class="row valign-wrapper">
-                            <div class="col s9 m4">
-                                <div class="card-image">
-                                    <img src="go.jpg">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-content">
-                    <div id="test4">Throughout history, women wore clothing for four major reasons: protection from the elements, maintaining modesty, furnishing adornment, and fixing status. The woman of the early twenty-first century obtains clothing made in modern factories through a complex global system of trade, but her basic goals have not changed. Women want to be warm in winter, cool in summer, and both comfortable and attractive year-round.  Womenswearaccommodated for breasts and hips with things like darting, girdles or other styles of contraptions that cinched and shaped the curves.</div>
-                        </div>
-                    <div id="test5">Children's clothing or kids' clothing is clothing for children who have not yet grown to full height. Children's clothing is often more casual than adult clothing, fit for play and rest.<br><br><br><br><br></div>
-                    <div id="test6">Men’s tailoring emphasises things like the natural ‘V’ shape of a man’s body with shoulder pads and cinched waist. Women were valued for their beauty and as they were seen as frivolous in patriarchal societies, it meant their clothing was more colourful and extravagantly embellished. Men valued for their strength, physical tenacity and seriousness had more practical garments like pants, often made of structured durable materials with earthy or neutral colours and more subdued embellishments.</div>
-                </div>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
-</section>
-<br><br><br><br><br><br>
-
-
-<hr>
-<h5 class="grey-text center">Horizontal Card</h5>
-<hr>
-
-<section class="section">
-    <div class="container">
-        <div class="row valign-wrapper">
-            <div class="col s12 m4">
-                <div class="card horizontal">
-                    <div class="card-image">
-                        <img src="blue.jpg" alt="">
-                    </div>
-                    <div class="card-stacked">
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a Link</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card horizontal">
-                    <div class="card-image">
-                        <img src="blue.jpg" alt="">
-                    </div>
-                    <div class="card-stacked">
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a Link</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card horizontal">
-                    <div class="card-image">
-                        <img src="blue.jpg" alt="">
-                    </div>
-                    <div class="card-stacked">
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a Link</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<hr>
-<h5 class="grey-text center">Card Reveal</h5>
-<hr>
-
-<section class="section">
-    <div class="container">
-        <div class="row valign-wrapper">
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="gray.jpg">
-                    </div>
-                    <div class="content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="gray.jpg">
-                    </div>
-                    <div class="content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="gray.jpg">
-                    </div>
-                    <div class="content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<br><br><br><br><br><br>
-
-
-    <footer class="page-footer blue-grey">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="black-text">The Minimal Closet</h5>
-                    <br><br><br><br>
-                    <p class="black-text text-lighten-4">Thank you for purchasing!</p>
-                    <ul>
-                    </ul>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h6></h6><i class="material-icons left">assistant_photo</i><h6 class="white-text">Official Store</h6>
-                    <br>
-                    <i class="material-icons left">business_center</i><a class="grey-text text-lighten-3" href="#!">Branches</a>
-                    <ul>
-                        <li><i class="material-icons left">star_border</i><a class="grey-text text-lighten-3" href="#!">Rating</a></li>
-                        <br>
-                        <li><i class="material-icons left">help_outline</i><a class="grey-text text-lighten-3" href="#!">Help</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    </div>        
         <div class="footer-copyright grey darken-3">
             <div class="container">
-            © 2014 Copyright Text
+                © 2001-2022 All Rights Reserved.
             </div>
         </div>
-    </footer>
+</footer>
 
     <!-- Jquery CDN -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
@@ -681,11 +437,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script>
         $(document).ready(function() {
-                // fixed-action-btn init
-                $('.fixed-action-btn').floatingActionButton({
-                    hoverEnabled: false,
-                    toolbarEnabled: true
-        });
                 // Sidenav init
                 $('.sidenav').sidenav({
                     edge: 'left',
@@ -695,16 +446,24 @@
                     inDuration: 2000,
                     outDuration: 1000
         });
-                $('.slider').slider({
-                    indicators: true,
-                    height: 700,
-                    duration:1000,
-                    interval: 3000
+                // modal init
+                $('.modal').modal({
+                    onOpenStart: null
         });
-                // cards init
-                $('.tabs').tabs();
+                // Slider init
+                $('.slider').slider({
+                    indicators: false,
+                    height: 900,
+                    duration:1000,
+                    interval: 2000
+        });
+                $('.collapsible').collapsible({
+                    accordion: true
+        });
     });
 </script>
+
+
 
 </html>
 
